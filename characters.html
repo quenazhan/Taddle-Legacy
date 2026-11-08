@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Characters | Taddle Legacy</title>
+<link href="style.css" rel="stylesheet"/>
+<script defer="" src="script.js"></script>
+</head>
+<body>
+<header class="site-header">
+<a class="brand" href="index.html"><img alt="Taddle Legacy" src="assets/images/logo-reference.png"/></a>
+<button aria-expanded="false" aria-label="Toggle navigation" class="menu-toggle" type="button">☰</button>
+<nav aria-label="Main navigation" class="main-nav"><a href="index.html">HOME</a><a href="characters.html">CHARACTERS</a><a href="gallery.html">GALLERY</a><a href="contact.html">CONTACT</a></nav>
+</header>
+<main>
+<section aria-label="Characters banner" class="characters-banner"><img alt="The four heroes of Taddle Legacy" src="assets/images/characters-banner.png"/></section>
+<div class="characters-gold-line"></div>
+<section aria-label="Party lineups" class="characters-screen lineup-screen" id="lineup-screen">
+<div class="characters-section-heading align-right"><span class="characters-ghost-heading">LINEUPS</span><span>PARTY</span></div>
+<div class="lineup-stage animated-stripes">
+<div class="diagonal-top"></div>
+<div aria-hidden="true" class="magic-ring"><span class="ring-core"></span></div>
+<div aria-label="Choose a character" class="lineup-menu" role="group">
+<button class="character-choice selected" data-character="sora" type="button"><span>SORA AMAGI</span></button>
+<button class="character-choice" data-character="katsuragi" type="button"><span>KATSURAGI AKABANE</span></button>
+<button class="character-choice" data-character="eiko" type="button"><span>EIKO HANAMORI</span></button>
+<button class="character-choice" data-character="rin" type="button"><span>RIN TSUKISHIRO</span></button>
+</div>
+<div aria-hidden="true" class="bust-gallery">
+<img alt="" data-bust="rin" src="assets/images/rin-bust.png"/>
+<img alt="" data-bust="eiko" src="assets/images/eiko-bust.png"/>
+<img alt="" data-bust="katsuragi" src="assets/images/katsuragi-bust.png"/>
+<img alt="" data-bust="sora" src="assets/images/sora-bust.png"/>
+</div>
+<div class="diagonal-bottom"></div>
+</div>
+</section>
+<section aria-label="Party biodata" class="characters-screen bio-screen" hidden="" id="bio-screen">
+<div class="characters-section-heading align-left"><span class="characters-ghost-heading">BIODATA</span><span>PARTY</span></div>
+<div class="bio-stage animated-stripes">
+<button class="back-button gold-button" id="back-button" type="button">BACK</button>
+<div class="bio-art">
+<img alt="Sora splash art" class="splash-art" id="splash-art" src="assets/images/sora-splash-art.png"/>
+<img alt="Sora full body" class="full-body" id="full-body" src="assets/images/sora-full-body.png"/>
+<div class="turnaround"><p>TURNAROUND<br/>CHARACTER:</p><div class="turnaround-grid">
+<div><span>LEFT</span><img alt="Left view" id="turn-left" src="assets/images/sora-turn-left.png"/></div>
+<div><span>FRONT</span><img alt="Front view" id="turn-front" src="assets/images/sora-turn-front.png"/></div>
+<div><span>RIGHT</span><img alt="Right view" id="turn-right" src="assets/images/sora-turn-right.png"/></div>
+<div><span>BACK</span><img alt="Back view" id="turn-back" src="assets/images/sora-turn-back.png"/></div>
+</div></div>
+</div>
+<div class="bio-information">
+<div class="bio-identity"><img alt="Sora icon" id="chibi-icon" src="assets/images/sora-chibi.png"/><div><h1 id="bio-name">SORA AMAGI</h1><h2 id="bio-title">The Wandering Swordsman</h2></div></div>
+<div class="bio-facts"><div><strong>AGE</strong><span id="bio-age">19</span></div><div><strong>CLASS</strong><span id="bio-class">Swordsman</span></div><div><strong>WEAPON</strong><span id="bio-weapon">Raikou (Sword)</span></div></div>
+<p class="bio-story" id="bio-story">A young swordsman haunted by fragments of a forgotten past.</p>
+<div aria-label="Character statistics" class="stats" id="bio-stats"></div>
+</div>
+</div>
+</section>
+<div aria-hidden="true" class="panel-transition" id="panel-transition"><div></div><div></div><div></div><div></div></div>
+</main>
+<footer class="site-footer"><div><img alt="Taddle Legacy" src="assets/images/logo-reference.png"/><p>© 2026 Taddle Legacy. Q’Studio. All rights reserved.</p></div><nav aria-label="Footer navigation"><a href="index.html">HOME</a><a href="characters.html">CHARACTERS</a><a href="gallery.html">GALLERY</a><a href="contact.html">CONTACT</a></nav></footer>
+<audio id="bgm" loop="" preload="none" src="assets/audio/bgm.mp3"></audio>
+<audio id="hover-sound" preload="none" src="assets/audio/hover.mp3"></audio><audio id="click-sound" preload="none" src="assets/audio/click.mp3"></audio>
+<button aria-pressed="false" class="global-music-toggle" id="music-toggle" title="Toggle background music" type="button">♫ MUSIC: OFF</button></body></html>

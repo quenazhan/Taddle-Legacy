@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#070d20" name="theme-color"/><meta content="Taddle Legacy — A memory inherited, a fate rewritten." name="description"/>
+<title>Taddle Legacy | Home</title><link href="style.css" rel="stylesheet"/><script defer="" src="script.js"></script>
+</head>
+<body>
+<header class="site-header">
+<a aria-label="Taddle Legacy home" class="brand" href="index.html"><img alt="Taddle Legacy logo" src="assets/images/logo-reference.png"/></a>
+<button aria-expanded="false" aria-label="Toggle navigation" class="menu-toggle" type="button">☰</button>
+<nav aria-label="Main navigation" class="main-nav"><a href="index.html">HOME</a><a href="characters.html">CHARACTERS</a><a href="gallery.html">GALLERY</a><a href="contact.html">CONTACT</a></nav>
+</header>
+<main>
+<section aria-label="Taddle Legacy introduction" class="hero">
+<video autoplay="" class="hero-video" loop="" muted="" playsinline="" poster="assets/images/hero-reference.png"><source src="assets/video/hero.mp4" type="video/mp4"/></video>
+<div class="hero-shade"></div>
+<!-- The screenshot-based fallback already contains the title; replace with clean artwork for separate live typography. -->
+<div class="hero-title" id="hero-live-title"><span class="hero-title-shadow">TADDLE LEGACY</span><h1>TADDLE LEGACY</h1><p>— A MEMORY INHERITED, A FATE REWRITTEN —</p></div>
+
+</section>
+<section aria-label="Platforms and trailer" class="platform-bar">
+<!-- Replace this single landscape image with your combined platform logo PNG. -->
+<div class="platform-logos">
+<img alt="Steam, Nintendo Switch 2, PS5 and Google Play" height="300" src="assets/images/platform-logos.png" width="1500"/>
+</div>
+<div class="hero-actions"><button class="gold-btn primary" id="wishlist-open" type="button">Wishlist Now</button><button class="gold-btn" id="trailer-open" type="button">▶ Watch Trailer</button></div>
+</section>
+<section class="ornate-section story" id="story">
+<div aria-hidden="true" class="skew-pattern"></div><div class="section-band"><h2>THE STORY</h2></div>
+<div class="story-grid"><figure class="story-art"><img alt="Four heroes of Taddle Legacy" src="assets/images/story-art.png"/></figure><div class="story-copy"><p>In a world shaped by forgotten legends, a mysterious power threatens to unravel the balance of Aetheria. Follow Sora and his companions as they uncover ancient secrets, confront powerful enemies, and discover the truth behind a legacy that could change their world forever.</p><div class="tags"><span>3D ACTION RPG</span><span>SINGLE PLAYER</span><span>PC &amp; MOBILE</span></div></div></div>
+</section>
+<section class="ornate-section features" id="features"><div aria-hidden="true" class="skew-pattern reverse"></div><div class="section-band right"><h2>GAME FEATURES</h2></div>
+<div class="feature-grid">
+<button aria-label="View Strategic Turn-Based Combat details" class="feature-card" data-feature="0"><img alt="Strategic Turn-Based Combat" src="assets/images/feature-1.png"/><span>View Details ↗</span></button>
+<button aria-label="View Four Heroes, One Destiny details" class="feature-card" data-feature="1"><img alt="Four Heroes, One Destiny" src="assets/images/feature-2.png"/><span>View Details ↗</span></button>
+<button aria-label="View A World Beyond Memory details" class="feature-card" data-feature="2"><img alt="A World Beyond Memory" src="assets/images/feature-3.png"/><span>View Details ↗</span></button>
+<button aria-label="View Shape Your Legacy details" class="feature-card" data-feature="3"><img alt="Shape Your Legacy" src="assets/images/feature-4.png"/><span>View Details ↗</span></button>
+</div>
+</section>
+</main>
+<footer class="site-footer"><div><img alt="Taddle Legacy" src="assets/images/logo-reference.png"/><p>© 2026 Taddle Legacy. Q’Studio. All rights reserved.</p></div><nav aria-label="Footer navigation"><a href="index.html">HOME</a><a href="characters.html">CHARACTERS</a><a href="gallery.html">GALLERY</a><a href="contact.html">CONTACT</a></nav></footer>
+<div aria-labelledby="feature-modal-title" aria-modal="true" class="modal" hidden="" id="feature-modal" role="dialog"><div class="modal-backdrop" data-close=""></div><div class="modal-panel"><div class="modal-visual"><img alt="Feature illustration" id="feature-modal-img" src="assets/images/feature-detail-1.png"/></div><div class="modal-copy"><button class="gold-btn primary modal-close" data-close="" type="button">Close ×</button><h2 class="sr-only" id="feature-modal-title">Game Feature</h2><p id="feature-modal-description"></p></div></div></div>
+<div aria-label="Watch trailer" aria-modal="true" class="modal" hidden="" id="trailer-modal" role="dialog"><div class="modal-backdrop" data-close=""></div><div class="trailer-panel"><button class="gold-btn primary" data-close="" type="button">Close ×</button><video controls="" id="trailer-video" playsinline="" poster="assets/images/hero-reference.png"><source src="assets/video/trailer.mp4" type="video/mp4"/>Your browser does not support HTML5 video.</video><p><code></code>Click the play button.</p></div></div>
+<div aria-label="Wishlist information" aria-modal="true" class="modal" hidden="" id="wishlist-modal" role="dialog"><div class="modal-backdrop" data-close=""></div><div class="trailer-panel"><button class="gold-btn primary" data-close="" type="button">Close ×</button><h2>Wishlist Taddle Legacy</h2><p>Store links will be available here when the game pages are ready. This demo does not submit a real wishlist request.</p></div></div>
+<audio id="bgm" loop="" preload="none" src="assets/audio/bgm.mp3"></audio><audio id="hover-sound" preload="none" src="assets/audio/hover.mp3"></audio><audio id="click-sound" preload="none" src="assets/audio/click.mp3"></audio>
+<button aria-pressed="false" class="global-music-toggle" id="music-toggle" title="Toggle background music" type="button">♫ MUSIC: OFF</button></body></html>
